@@ -11,6 +11,8 @@
 		E847FA122F22012A0007E785 /* MyCoolLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E847FA072F2201290007E785 /* MyCoolLogger.framework */; };
 		E847FA172F22012A0007E785 /* MyCoolLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E847FA162F22012A0007E785 /* MyCoolLoggerTests.swift */; };
 		E847FA182F22012A0007E785 /* MyCoolLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = E847FA0A2F2201290007E785 /* MyCoolLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E847FA222F22017A0007E785 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E847FA212F22017A0007E785 /* Logger.swift */; };
+		E847FA2C2F22070A0007E785 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E847FA2B2F22070A0007E785 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		E847FA0B2F22012A0007E785 /* MyCoolLogger.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MyCoolLogger.docc; sourceTree = "<group>"; };
 		E847FA112F22012A0007E785 /* MyCoolLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCoolLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E847FA162F22012A0007E785 /* MyCoolLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCoolLoggerTests.swift; sourceTree = "<group>"; };
+		E847FA212F22017A0007E785 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		E847FA2B2F22070A0007E785 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				E847FA0A2F2201290007E785 /* MyCoolLogger.h */,
 				E847FA0B2F22012A0007E785 /* MyCoolLogger.docc */,
+				E847FA212F22017A0007E785 /* Logger.swift */,
+				E847FA2B2F22070A0007E785 /* Media.xcassets */,
 			);
 			path = MyCoolLogger;
 			sourceTree = "<group>";
@@ -177,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E847FA2C2F22070A0007E785 /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E847FA0C2F22012A0007E785 /* MyCoolLogger.docc in Sources */,
+				E847FA222F22017A0007E785 /* Logger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +348,7 @@
 		E847FA1C2F22012A0007E785 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -367,6 +376,7 @@
 		E847FA1D2F22012A0007E785 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -394,6 +404,7 @@
 		E847FA1F2F22012A0007E785 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -409,6 +420,7 @@
 		E847FA202F22012A0007E785 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;

@@ -1,0 +1,145 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyCoolLogger",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MySimpleLogger",
+        "printedName": "MySimpleLogger",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MySimpleLogger",
+                "printedName": "MyCoolLogger.MySimpleLogger",
+                "usr": "s:12MyCoolLogger0a6SimpleC0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12MyCoolLogger0a6SimpleC0CACycfc",
+            "mangledName": "$s12MyCoolLogger0a6SimpleC0CACycfc",
+            "moduleName": "MyCoolLogger",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "log",
+            "printedName": "log(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MyCoolLogger0a6SimpleC0C3logyySSF",
+            "mangledName": "$s12MyCoolLogger0a6SimpleC0C3logyySSF",
+            "moduleName": "MyCoolLogger",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12MyCoolLogger0a6SimpleC0C",
+        "mangledName": "$s12MyCoolLogger0a6SimpleC0C",
+        "moduleName": "MyCoolLogger",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MyAdvancedLogger",
+        "printedName": "MyAdvancedLogger",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MyAdvancedLogger",
+                "printedName": "MyCoolLogger.MyAdvancedLogger",
+                "usr": "s:12MyCoolLogger0a8AdvancedC0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12MyCoolLogger0a8AdvancedC0CACycfc",
+            "mangledName": "$s12MyCoolLogger0a8AdvancedC0CACycfc",
+            "moduleName": "MyCoolLogger",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "log",
+            "printedName": "log(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MyCoolLogger0a8AdvancedC0C3logyySSF",
+            "mangledName": "$s12MyCoolLogger0a8AdvancedC0C3logyySSF",
+            "moduleName": "MyCoolLogger",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12MyCoolLogger0a8AdvancedC0C",
+        "mangledName": "$s12MyCoolLogger0a8AdvancedC0C",
+        "moduleName": "MyCoolLogger",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

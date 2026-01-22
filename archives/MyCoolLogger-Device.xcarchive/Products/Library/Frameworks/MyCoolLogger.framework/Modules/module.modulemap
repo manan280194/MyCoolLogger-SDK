@@ -1,0 +1,11 @@
+framework module MyCoolLogger {
+  umbrella header "MyCoolLogger.h"
+
+  export *
+  module * { export * }
+}
+
+module MyCoolLogger.Swift {
+  header "MyCoolLogger-Swift.h"
+  requires objc
+}
