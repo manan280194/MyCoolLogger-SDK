@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MyCoolLoggerTarget",
-            url: "sha256:d9a0f1ecf483b6655b16fb37307cb27e886901a05f243809e839010e54fe62c0",
-            checksum: "d9a0f1ecf483b6655b16fb37307cb27e886901a05f243809e839010e54fe62c0"
+            url: "sha256:48398b910a153b6acfbc3ee7607db5774c6d4964cfd4f546f1b94c4baef4fb15",
+            checksum: "48398b910a153b6acfbc3ee7607db5774c6d4964cfd4f546f1b94c4baef4fb15"
         ),
     ]
 )
